@@ -1,0 +1,86 @@
+html {
+  background-color: #8fb5f8;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #222;
+}
+
+.block {
+  padding: 16px;
+  background-color: #8fb5f8;
+}
+
+.container {
+  margin: 50px auto !important;
+  padding: 36px 45px !important;
+  width: 350px !important;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.input-style {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px 16px;
+  border-radius: 14px;
+  border: 1px solid #a7a7a7;
+}
+
+input::placeholder {
+  color: #a7a7a7;
+}
+
+.text-link {
+  font-weight: bolder;
+  font-size: 14px;
+  color: #222;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.text-style {
+  font-size: 14px;
+  color: #a7a7a7;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.btn-style {
+  background-color: #f9527a;
+  color: #fff;
+  width: 100%;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.btn-disabled {
+  background-color: #a7a7a7;
+  color: #fff;
+  width: 100%;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  cursor: default !important;
+}
+
+.btn-secondary {
+  background-color: transparent !important;
+  width: 100%;
+  padding: 7px 16px;
+  border: 1px solid #f9527a !important;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: #f9527a !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
